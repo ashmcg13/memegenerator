@@ -1,0 +1,28 @@
+.output {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    text-align: center;
+    overflow: auto;
+}
+
+#appttext {
+    position: absolute;
+    color: cyan;
+    z-index: 99;
+    margin: 15px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#appbtext {
+    position: absolute;
+    color: cyan;
+    z-index: 99;
+    bottom: 0px;
+    margin: 15px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
